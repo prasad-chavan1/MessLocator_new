@@ -1,0 +1,227 @@
+/* ***************************** Sign in/up ***************************** */
+.container-signup {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  
+  .img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .partener-content{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 3px 13px 31px -9px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 13px 31px -9px rgba(0,0,0,1);
+    box-shadow: 3px 13px 31px -9px rgba(0,0,0,1);
+  }
+  .MuiFormControl-root{
+      margin-top: 15px;
+  }
+  .login-content {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 3px 13px 31px -9px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 13px 31px -9px rgba(0,0,0,1);
+    box-shadow: 3px 13px 31px -9px rgba(0,0,0,1);
+  }
+
+  .EditMenu-content{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .EditMenu-content form{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  
+
+
+  .EditMenu-content img{
+    height:100px;
+  }
+
+
+  .partener-img{
+    width: 60%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/partenerBg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .login-img{
+      width: 60%;
+      height: 100%;
+      border-radius: 50px 0px 0px 50px;
+      color:rgb(0, 0, 0); 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("./images/background.jpg");
+      background-repeat: no-repeat;
+  }
+  .signup-img{
+    color:rgb(0, 0, 0);
+    width: 60%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/background.jpg");
+  }
+
+  .menu-img{
+    color:rgb(0, 0, 0);
+    width: 60%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/hotel_new.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .menu-img h1{
+    color: rgb(247, 247, 247);
+    font-size: 50px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px #000000;
+  }
+
+  #menu-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .signup-img h1{
+      font-size: 50px;
+      font-weight: 1000;
+      text-shadow: 2px 2px 2px #FFFFFF;
+  }
+
+  .partener-img h1{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px rgb(198, 0, 194);
+}
+
+  .login-img h1{
+    font-size: 50px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px #FFFFFF;
+}
+
+
+  form {
+    width: 40%;
+    /* border: 2px solid black; */
+    padding: 20px;
+    height: 100%;
+    
+  }
+  
+  .login-content img {
+    height: 100px;
+  }
+  
+  .login-content h2 {
+    margin: 15px 0;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+  }
+  
+  .login-content .input-div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+  }
+
+
+  
+  /* ***************************** Media Queries ***************************** */
+  
+  @media screen and (max-width: 1050px) {
+    .container {
+      grid-gap: 5rem;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    form {
+      width: 290px;
+    }
+  
+    .login-content h2 {
+      font-size: 2.4rem;
+      margin: 8px 0;
+    }
+  
+    .img img {
+      width: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  
+    .img {
+      display: none;
+    }
+    .login-content {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .container {
+      width: 100vw;
+      margin-top: 180px;
+    }
+    .login-content {
+      width: 80vw;
+    }
+  }
+  

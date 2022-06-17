@@ -1,0 +1,293 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------- Navbar ------------------- */
+.Navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+.Nav-logo{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(198, 0, 194);
+  width: 20%;
+  height: 80px;
+  align-content: center;
+  padding-left: 2%;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.Nav-headings a{
+  color:aliceblue;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.Nav-headings a:hover{
+  color:rgb(198, 0, 194) ;
+}
+
+.Seachbar{
+  width: 300px;
+  height: 50px;
+}
+.Seachbar input{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+
+}
+
+
+/* ------------------- Home page ------------------- */
+.modal-header{
+  background-color: black;
+  color: white;
+  border-radius: 20px 0px 20px 0px;
+  border: 5px solid black;
+}
+.modal-header .btn-close{
+  background-color: aqua;
+}
+.modal-open .modal{
+    width: 40%;
+    margin-left: 30%;
+}
+.modal-body{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* box-shadow: 1px 2px 5px 0px #0dcaf0; */
+}
+
+.modal-content{
+  box-shadow: 1px 2px 5px 0px #0dcaf0;
+  border-radius: 20px 0px 20px 0px;
+}
+
+
+.modal-footer{
+  justify-content: center;
+}
+.modal-footer .btn-primary{
+  justify-content: center;
+}
+
+.HomeBody{
+  width: 100%;
+  height: max-content;
+  color: black;
+}
+
+.Home-Text{
+  background-repeat:no-repeat;
+  width:100vw;
+  background-position:center;
+  background-size:100% 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-weight: 1000px;
+  text-shadow: 3px 3px 4px rgba(203,78,206,0.92);
+  padding: 2%;
+}
+
+.each-slide{
+  font-size: 50px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.Features-body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2%;
+  /* border: 2px solid red; */
+  font-size: 20px;
+}
+
+.Features-body h1{
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color:rgb(198, 0, 194);
+}
+
+.btn-primary{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  border-color: aliceblue;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.btn-primary:hover{
+  background-color: rgb(198, 0, 194);
+  border-color: aliceblue;
+}
+
+/* ------------------- Partener ------------------- */
+
+.Partener-body::before{
+  content: "";
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-image: url("./images/partenerBg.jpg");
+  /* filter: blur(1px); */
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.Partener-body{
+  position: relative;
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.Partener-body h1{
+  font-size: 50px;
+  font-weight: 300;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  border-bottom: 2px solid rgb(231, 255, 92);
+  border-width: 2px;
+}
+
+.Partner-form{
+  margin-top: 5%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  -webkit-box-shadow: 3px 13px 31px -9px rgb(255, 255, 255);
+    -moz-box-shadow: 3px 13px 31px -9px rgb(255, 255, 255);
+    box-shadow: 3px 13px 31px -9px rgb(255, 255, 255);  
+}
+
+
+.Partner-form form{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* ------------------- Mess ------------------- */
+.Mess-Body{
+  width: 100%;
+  height:100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border:2px solid red; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.Mess-img{
+  width: 60%;
+  height: 100%;
+  /* border: 5px solid greenyellow; */
+}
+
+.Mess-details{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction:inherit;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Mess-details h1{
+  border-bottom: 4px solid rgb(198, 0, 194);
+}
+
+.Mess-details-list{
+  width: 100%;
+}
+
+.Mess-details-list button{
+  margin-bottom:20px;
+
+}
+
+
+/* ------------------- Explore messes ------------------- */
+.MuiCard-root{
+  width: 25%;
+  display: inline-block;
+  height: 15%;
+  margin: 2%;
+}
+
+.MuiCardMedia-img{
+  width:100%;
+  height: 15%;
+}
+
+.Explore-Body{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items:center;
+  flex-wrap: wrap;
+  /* height: 100vh; */
+}
+
+/* ------------------- EditMenu ------------------- */
+
+#menu-body{
+  background: rgb(252,58,242);
+background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgba(252,58,242,1) 50%);
+}
+
+
+/* ------------------- footer ------------------- */
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background: black;
+  color:white;
+  bottom: 0;
+  position: fixed;
+}
